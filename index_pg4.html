@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> Help A Friend </title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "page4.js"> </script>
+    </head> 
+
+    <body> 
+    <center>
+        <h1 class = "heading"> 
+            Help A Friend <sup>
+            <image src = "m1.png" style = "height:50px; width:50px;"> </image>
+            </sup></h1> 
+
+        <h3 class = "sub_heading"> Design Your Avatar </h3> 
+        <br> <br> <br> 
+        <button id = "logout" onclick = "logout()" class = "btn btn-danger" style = "float:right; margin-top:-155px; margin-right:100px;"> Logout </button>
+
+        <image src = "avatar_female.png" alt = "Female Avatar" class = "female_avatar" onclick = "female_avatar()" style = "margin-left:20px;"> </image>
+        <button id = "female_clicked" onclick = "female_avatar()" type = "text"> FEMALE</button> <br> 
+
+        <image src = "avatar_male.png" alt = "Male Avatar" class = "male_avatar" onclick = "male_avatar()"> </image>
+        <button id = "male_clicked" onclick = "male_avatar()" type = "text"> MALE</button>
+ 
+    </center> 
+    </body>
+</html>

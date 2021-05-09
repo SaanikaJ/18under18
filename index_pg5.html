@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> Find A Friend </title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "page5.js"> </script>
+    </head> 
+
+    <body> 
+        <center> 
+        <h1 class = "heading"> 
+            Help A Friend <sup>
+            <image src = "m1.png" style = "height:50px; width:50px;"> </image>
+            </sup></h1> 
+
+        <h3 class = "sub_heading"> Connecting with the unconnected! </h3> 
+        <br> <br> <br> 
+        <div id = "person" onmouseover = "popup()"> </div>
+        <label id = "name"> </label>
+
+        <button id = "logout" onclick = "logout()" class = "btn btn-danger" style = "float:right; margin-top:-155px; margin-right:100px;"> Logout </button>
+        
+        <h4 class = "subsub_heading"> Let us take a small survey to see which kind of problem you face</h4>
+
+        <h4 class = "subsub_heading"> Do you face any of the following issues? </h4> <br> <br> <br> 
+
+        <input type="checkbox" id="anxiety"> <label for="anxiety" class = "label"> I was anxious or scared about a lot of things in my life </label> <br> <br> 
+        <input type="checkbox" id="worry"> <label for="worry" class = "label"> I feel that my worry was out of control </label> <br> <br> 
+        <input type="checkbox" id="sleep"> <label for="sleep" class = "label"> I had trouble sleeping - I could not fall alseep / did not feel rested when I woke up </label> <br> <br> 
+        <input type="checkbox" id="panic"> <label for="panic" class = "label"> I was sweating profusely, I was shaking or had difficulty to breathe </label> <br> <br> 
+        <input type="checkbox" id="scared"> <label for="scared" class = "label"> I was scared of going crazy, losing control or dying </label> <br> <br> 
+        <input type="checkbox" id="trauma"> <label for="trauma" class = "label">I was the victim of a traumatic event and lost trust in everyone</label> <br> <br> 
+        <input type="checkbox" id="depression"> <label for="depression" class = "label"> I was unable to feel happiness, contentment, joy or love </label> <br> <br> 
+        <input type="checkbox" id="lonely"> <label for="lonely" class = "label"> I feel worthless as though no one was my own </label> <br> <br> 
+        <input type="checkbox" id="mood_swings"> <label for="mood_swings" class = "label"> I was experiencing sudden mood swings, from depression to elation all of a sudden for no apparent reason </label> <br> <br> 
+        <input type="checkbox" id="friends"> <label for="friends" class = "label"> Do you just need somebody to talk to? </label> <br> <br> 
+
+        <br> <br> 
+        <button id = "next" onclick = "submit()" class = "btn btn-warning"> Next </button>
+        </center> 
+    </body>
+</html> 

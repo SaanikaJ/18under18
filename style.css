@@ -1,0 +1,140 @@
+.heading{
+    font-size:40; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+#dialog{
+    font-size:25;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align:center;
+}
+
+body{
+    background-image:url(Background.png); 
+}
+
+sup{
+    vertical-align:super; 
+    font-size:smaller;
+}
+
+.sub_heading{
+    font-size:25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.female_avatar{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+}
+
+.male_avatar{
+    height:175px;
+    width:175px;
+    border-radius:50%;
+}
+
+option{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size:19px;
+}
+
+.f_avatar{
+    height:160px; 
+    width:160px; 
+}
+
+.m_avatar{
+    height:160px;
+    width:160px;
+}
+
+.subsub_heading{
+    font-size:22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.label{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: normal;
+    font-size:19px;
+    color:black; 
+}
+
+body
+{
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:helvetica;
+ background-color:#0B3861;
+}
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:0px;
+ width:995px;
+}
+#output_image
+{
+ max-width:300px;
+}
+
+.onload{
+    height:150px;
+    width:150px;
+    float:left;
+    margin-top:-185px;
+    margin-left:30px;
+}
+
+.text{
+    float:left;
+    margin-left:70px;
+    margin-top:-25px;
+    font-size:22px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#message{
+    display:none; 
+}
+
+#send_message{
+    display:none; 
+}
+
+#paint{
+    height:70px;
+    width:70px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+#canvas_info{
+    display:"none"; 
+}
+
+.chat_onload{
+    height:150px;
+    width:150px;
+    float:left;
+    margin-top:-135px;
+    margin-left:30px;
+}
+
+.text_onload{
+    float:left;
+    margin-left:-110px;
+    margin-top:22px;
+    font-size:22px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+canvas{
+    border:black; 
+    border-radius:7px;
+    border-width:10px;
+}
